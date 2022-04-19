@@ -104,3 +104,7 @@ export LANG=en_US.UTF-8
 
 [ -f /opt/dev/dev.sh ] && source /opt/dev/dev.sh
 if [ -e /Users/tyler/.nix-profile/etc/profile.d/nix.sh ]; then . /Users/tyler/.nix-profile/etc/profile.d/nix.sh; fi # added by Nix installer
+
+# bundle open <gem-name>
+export EDITOR="code -w -n"
+
