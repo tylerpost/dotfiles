@@ -108,3 +108,5 @@ if [ -e /Users/tyler/.nix-profile/etc/profile.d/nix.sh ]; then . /Users/tyler/.n
 # bundle open <gem-name>
 export EDITOR="code -w -n"
 
+# except open git in vim
+git config --global core.editor "vim"
